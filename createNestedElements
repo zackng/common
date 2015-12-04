@@ -5,6 +5,7 @@
  * Returns an array of the Element nodes for further customization.
  * Only allowed tags under matchTag(Array)
  * Require at least 1 element tag. Add Optional element tags
+ * Example : createNestedElements('div div p')
  * @param elements (string)
  * @returns {Array}
  */
