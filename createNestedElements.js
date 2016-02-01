@@ -63,5 +63,5 @@ function createNestedElements(elements){
     }
 }
 
-alert('what');
+console.log('what');
 
