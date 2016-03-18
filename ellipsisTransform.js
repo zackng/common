@@ -39,6 +39,9 @@ function ellipsisTransform(inputString, maxLength, ellipsis){
 	if(inputString.length > maxLength){
 		inputString = inputString.substring(0, maxLength);
 		splitted = inputString.split('');
+
+		//if last character is a ' ', replace it with append
+		// so instead of 'hello ...', it returns 'hello...'
 		if(splitted[maxLength-1] === ' '){
 			splitted[maxLength-1] = append;
 			finalString = splitted.join('');
