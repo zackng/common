@@ -12,7 +12,7 @@ function ellipsisTransform(inputString, maxLength, ellipsis){
 	var finalString;
 
 	if(arguments.length !== 2 && arguments.length !== 3){
-		throw new Error('Missing arguments')
+		throw new Error('Missing arguments');
 	}
 
 	if(typeof inputString !== 'string'){
@@ -20,7 +20,7 @@ function ellipsisTransform(inputString, maxLength, ellipsis){
 	}
 
 	if(typeof maxLength !== 'number'){
-		throw new Error('maxLength must be a number')
+		throw new Error('maxLength must be a number');
 		
 	}
 
