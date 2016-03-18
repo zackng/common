@@ -2,7 +2,7 @@
 Usage ellipsisTransform('hello there', 5, '...')
 return 'hello...'
 
-@params string, number, string
+@params string (required), number (required), string (optional)
 returns edited inputString
 */
 function ellipsisTransform(inputString, maxLength, ellipsis){
