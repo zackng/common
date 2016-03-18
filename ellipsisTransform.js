@@ -1,5 +1,5 @@
 /**
-Usage ellipsisTransform('hello there', 5, '...')
+Usage ellipsisTransform('hello there', 6, '...')
 return 'hello...'
 
 @params string (required), number (required), string (optional)
