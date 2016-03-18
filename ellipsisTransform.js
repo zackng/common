@@ -1,5 +1,10 @@
+/**
+Usage ellipsisTransform('hello there', 5, '...')
+return 'hello...'
 
-
+@params string, number, string
+returns edited inputString
+*/
 function ellipsisTransform(inputString, maxLength, ellipsis){
 
 	var append = '..';
